@@ -1,0 +1,508 @@
+Date: Sun, 4 Dec 2022 12:57:38 +0000 (UTC)
+Message-ID: <1233241542.4213.1670158658794@9287c78a2ca8>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_4212_1087531924.1670158658794"
+
+------=_Part_4212_1087531924.1670158658794
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Confluence Docker Installation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Confluence Docker Installation</h1>
+    <div class=3D"Section1">
+        <span class=3D"confluence-embedded-file-wrapper image-center-wrappe=
+r"><img class=3D"confluence-embedded-image image-center" loading=3D"lazy" s=
+rc=3D"4e24dfb503c7a772dcce935b9f9dfd40" data-image-src=3D"https://balkan.at=
+lassian.net/wiki/download/attachments/13828122/Confluence-logo-2x.png?versi=
+on=3D1&amp;modificationDate=3D1669903512476&amp;cacheVersion=3D1&amp;api=3D=
+v2" data-height=3D"346" data-width=3D"446" data-unresolved-comment-count=3D=
+"0" data-linked-resource-id=3D"14090280" data-linked-resource-version=3D"1"=
+ data-linked-resource-type=3D"attachment" data-linked-resource-default-alia=
+s=3D"Confluence-logo-2x.png" data-base-url=3D"https://balkan.atlassian.net/=
+wiki" data-linked-resource-content-type=3D"image/png" data-linked-resource-=
+container-id=3D"13828122" data-linked-resource-container-version=3D"13" dat=
+a-media-id=3D"1a17cccb-3580-4e42-a9f9-cdc98a960f4f" data-media-type=3D"file=
+" width=3D"446" height=3D"346"></span>
+<h2 id=3D"ConfluenceDockerInstallation-Instructions"><img class=3D"emoticon=
+ emoticon-blue-star" data-emoji-id=3D"1f4d8" data-emoji-shortname=3D":blue_=
+book:" data-emoji-fallback=3D"\uD83D\uDCD8" src=3D"0a5634600387a69ade271a7f=
+aefb3faf" width=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=
+=3D"(blue star)">&nbsp;Instructions</h2>
+<p>Step-by-step guide:</p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p> In this document I will describe step by step how to install Confluence=
+ locally using Docker image. At that point I=E2=80=99m expecting from you t=
+o have working Linux machine and installed Docker on it. If you do not have=
+, please refer to some other manual how to do that! Lets begin!</p>
+</div>
+</div>
+<ol start=3D"1">
+<li><p> Log in to your Linux machine.</p></li>
+<li><p>Open Docker Hub <a href=3D"https://hub.docker.com/" data-card-appear=
+ance=3D"inline" class=3D"external-link" rel=3D"nofollow">https://hub.docker=
+.com/</a> .</p></li>
+<li><p>Enter your credential. If you do not have, <strong>please register</=
+strong>. </p></li>
+<li><p>Up at left there is a search bar. Type <em><strong>Confluence </stro=
+ng></em>in it. Press enter and look at first 2 options marks down as =E2=80=
+=9C<strong>Verified Publisher</strong>=E2=80=9D. Open one of them, and you =
+will see instruction how to work with image. If you do not like it or you d=
+o not find them suitable just continue reading.</p></li>
+<li><p> Create directory which we will use to store data from our <em><stro=
+ng>Confluence </strong></em>server. In my case I will name it =E2=80=9Cconf=
+luence=E2=80=9D and it will be in /root path. </p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">mkdir c=
+onfluence</pre>=20
+</div>
+</div></li>
+<li><p>Create directory for PostgreSQL server </p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">mkdir P=
+ostgreSQL</pre>=20
+</div>
+</div></li>
+<li><p>Run PostgreSQL Docker container. You can add -v parameter for direct=
+ory, like example below. Change with ~root/PostgreSQL =E2=86=92 <a href=3D"=
+https://www.code4it.dev/blog/run-postgresql-with-docker" data-card-appearan=
+ce=3D"inline" class=3D"external-link" rel=3D"nofollow">https://www.code4it.=
+dev/blog/run-postgresql-with-docker</a> </p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">docker =
+run --name myPostgresDb -p 5455:5432 -e POSTGRES_USER=3DpostgresUser -e POS=
+TGRES_PASSWORD=3DpostgresPW -e POSTGRES_DB=3DpostgresDB -d postgres</pre>=
+=20
+</div>
+</div></li>
+<li><p>Run Confluence container. </p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">docker =
+run -v ~root/confluence/:/var/atlassian/application-data/confluence --name=
+=3D"confluence" -d -p 8090:8090 -p 8091:8091 atlassian/confluence</pre>=20
+</div>
+</div></li>
+<li><p> If it=E2=80=99s needed change username, password and database.</p><=
+/li>
+<li><p>Open browser =E2=86=92 navigate to localhost:8090 and follow the lic=
+ense process.</p></li>
+</ol>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><a href=3D"https://www.youtube.com/watch?v=3D4DmlNXubWio" data-card-appe=
+arance=3D"inline" class=3D"external-link" rel=3D"nofollow">https://www.yout=
+ube.com/watch?v=3D4DmlNXubWio</a> </p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>If something goes wrong, try to start PostgreSQL container first!</p>
+</div>
+</div>
+<p></p>
+<h2 id=3D"ConfluenceDockerInstallation-Relatedarticles"><img class=3D"emoti=
+con emoticon-blue-star" data-emoji-id=3D"1f4cb" data-emoji-shortname=3D":cl=
+ipboard:" data-emoji-fallback=3D"\uD83D\uDCCB" src=3D"eccf3d4301d998cb37f54=
+21805362c8e" width=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" al=
+t=3D"(blue star)">&nbsp;Related articles</h2>
+<p></p>=20
+<div class=3D"content-by-label macro-blank-experience"> <strong class=3D"co=
+ntent-label-header">Content by label</strong>=20
+<p>There is no content with the specified labels</p>=20
+</div>=20
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_4212_1087531924.1670158658794
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/4e24dfb503c7a772dcce935b9f9dfd40
+
+iVBORw0KGgoAAAANSUhEUgAAAb4AAAFaCAYAAABhWDh9AAAaOklEQVR42uzBAQEAAACAkP6v7ggC
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AIDZgwMBAAAAACD/10ZQVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+VVVVVVVVVVVVVVVVVVVVVVXYgwMBAAAAACD/10ZQVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVXYOxfoKKozjl9RFBUVFOQlIuDuJgTxQa3Z
+TcC0WiserW1CZGeTYAAND3kIiiIqRHlY388epdU+1NrWqrXaevScnqpordpsAgJK5Y3yrEBAkHdu
+v/9s4obsnd2dmTvZjef7n3NPHrs7M3tn5v7u993v+4bFYrFYLBaLxWKxWCwWi8VisVis74YGX1p1
+SiA/PM4fNF705Ruf+4PhbdQO0t/bqX1Cvy9Qfc4XMu6l19c2b4H8yKOCxWKxWKxsVHV1dTt/fmSm
+Lz9cT01atmB4nxJ8QeOZlu8l+L0gWCwWq1VVuuxYUVIzg9p4Ubmmg2hDGlxV1T53SHkPf2H5uTQg
+XxoIhYf7CyJX+EKRoQMKjLy80upjBUuL0JcEtNebgMXgY7FY+lWx+ESC0VuiOLpGlETn0t+nCy9U
+HH1KFNdINNrfKlFSd4XIUp1TGOlswi3f+CXcZKkG4Eb322fkjvt1TrDsymHDJh0nWI5Eff4L9CmD
+j8VieaeS2mkmjOJQ+oYA+IQI150ldGlE3YW0zcNN+4i36CsivKS3yBLlFpTl02D6FrVDGCydN2Mn
+DbSzBl1WcaJgpa2cwshg9B+Dj8VieadSeTQBaa0JocR2kMD0vCitOUeDi7POYh+S9r+b9nOLqKpp
+LzIkDLhkafwdA6TORoPtxkGhCm8s6O+gACeLicRmfyhSRdb0OUVFlR1gkdN7c/wF5UMYfCwWy677
+cUQCiBKtsgaC0+uiuK7AmUUZvT/p9uMAXCZKay8WrSwaEGfQwNjg0wA6VRsYura/YKWUlPIoRG0q
+gLX8vKLKTlafY/CxWCx7Kq75CNCx0d4Tw+uuFtWyXZpu1NEAp619lESfE8aSbsJjwXKgsPfnHbgx
+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
+------=_Part_4212_1087531924.1670158658794
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/eccf3d4301d998cb37f5421805362c8e
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAPFBMVEVHcEzM1t3M1t3M1t3M1t3M
+1t2Zoqg9REgpLzPM1t3M1t3M1t3BaU/BaU/BaU/CcFjgtKf////M1dqZqrWLZiLOAAAADnRSTlMA
+IJ/v/zD///8QUN9Q360w504AAADiSURBVHgB7dhVgoUwEERRIIVrw/7XOoI7HRl9fRdwgKS+8J7y
+AwWowPcsCxX6VGjn+ApRnCRxBOVbQQGipC9CYAUpxAMUQ9k4KZCMAZ52WY6lBZrLM6aDVcunreNJ
+OVYth70uZ57Luun6t90BRVn11WBUDZXFiVNNcaG+o1SaQeUBqsyg6s9ADRGBERE1txDxIfprELPf
+BgnUdie1BlB3mjPoxz6Nn+zovtbw+o99I2T/abKjv78j2ZHsSHYkUOvqsLvT3EPmnyY7aohdcwMZ
+9Beg0swpD1BhBhWnP1m0KxfnHV+T0IbfZ3ihAAAAAElFTkSuQmCC
+------=_Part_4212_1087531924.1670158658794
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/0a5634600387a69ade271a7faefb3faf
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAq1BMVEVHcEwiZpkiZpkiZpkiZpki
+ZpkiZpkiZpkiZpk7iMMiZpnM1t0iZpnM1t07iMMiZpnM1t3M1t3M1t0iZplfnMo7iMM7iMM7iMM7
+iMMiZplVrO7M1t3h6O1ikLOswdCiusxNoeFCkc7Bz9l3nrtamsujxN3Z4efM3OhQpeZPo+OxyNjg
+5+zP2N9Ln95loM5FltM+jcg3dKJfnMpFjsaCp8PQ2eAtbZ1ql7lTqusm12cWAAAAGHRSTlMAUN/P
+IL+vYO/PcCCfzyAQv+9gMIDvYL/uJGE9AAABJklEQVR4Xu3QV27DMBBF0ZFVSDtxeiHV3FtqL/tf
+WSjyYyIBATT05CfgXcDBwwMsGWUDTUtmArqJVHs1iFrMOTLkDgETUmsOSWjXR7WYmIq+TSonReCK
+tGsxL6jVz/Yn5xxL59SFR3MrCQuNnFMVXtUNlFkodtBNSet2fWel5idpIY0QkXq3j2vTT+izpEt2
+UxfSb/RN6w6Eqd49rJpJe0DYclOWLJB63TBBavk7lPdrOnPSyhfC7t3je0IoMUD5jAuackH530MB
+ClCAAhSgAAUoQAFKuSDBBMXAA8mEB4oT4IEA/it0wgWdMUFj4IFODxBK/aCdcV7G6AAIP+jRQBfQ
+KvaBtsYZQrtE0qGvJ6Uuj6ArxVRoa5whOphIKdDO/HN91Ra+ARIL3guc4aKtAAAAAElFTkSuQmCC
+
+------=_Part_4212_1087531924.1670158658794--

@@ -1,0 +1,418 @@
+Date: Sun, 4 Dec 2022 12:58:29 +0000 (UTC)
+Message-ID: <885015415.4235.1670158709164@ace596dd9f6c>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_4234_815978597.1670158709164"
+
+------=_Part_4234_815978597.1670158709164
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Git/GitHub Crash Course</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Git/GitHub Crash Course</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"Git/GitHubCrashCourse-Instructions"><img class=3D"emotico=
+n emoticon-blue-star" data-emoji-id=3D"1f4d8" data-emoji-shortname=3D":blue=
+_book:" data-emoji-fallback=3D"\uD83D\uDCD8" src=3D"0a5634600387a69ade271a7=
+faefb3faf" width=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=
+=3D"(blue star)">&nbsp;Instructions</h2>
+<p></p>
+<ol start=3D"1">
+<li><p>Version Control System for tracking changes and committing files.</p=
+></li>
+<li><p>Create by Linux Thorwald year 2005.</p></li>
+<li><p>Compatible with all languages. </p></li>
+<li><p>Distributed ( Decentralized ) Version Control System - Many develope=
+rs can work from different places on same project. Track every change on pr=
+oject and can revert to every stage which have been committed of developmen=
+t you with. Can make <strong>stage </strong>on file before <strong>commit</=
+strong>. After commit other developers can make pull to they machine. Can m=
+ake <strong>branch. </strong></p></li>
+</ol>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Basic commands</p>
+</div>
+</div>
+<ol start=3D"1">
+<li><p><strong>git init</strong> =E2=86=92 Initialize new local repository.=
+ Create <strong>.git folder.</strong></p></li>
+<li><p><strong>git add </strong>=E2=86=92 Add file(s) in Index (staging rea=
+dy to commit) .It can be run as many time as you want.</p></li>
+<li><p><strong>git status</strong> =E2=86=92 Check status of working tree (=
+staging).</p></li>
+<li><p><strong>git commit</strong> =E2=86=92 Commit changes in Index. info<=
+/p></li>
+<li><p><strong>git push</strong> =E2=86=92 Push to remote repository</p></l=
+i>
+<li><p><strong>git pull</strong> =E2=86=92 Pull latest from remote reposito=
+ry.</p></li>
+<li><p><strong>git clone</strong> =E2=86=92 Clone remote repository.</p></l=
+i>
+<li><p>To install on Linux : </p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo ap=
+t-get install git</pre>=20
+</div>
+</div></li>
+</ol>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Start using in project</p>
+</div>
+</div>
+<ol start=3D"1">
+<li><p> <strong>git init</strong></p></li>
+<li><p><strong>git add index.html</strong></p></li>
+<li><p><strong>git config --global </strong><a href=3D"http://user.name" cl=
+ass=3D"external-link" rel=3D"nofollow"><strong>user.name</strong></a><stron=
+g> 'Your Git User Name'</strong></p></li>
+<li><p><strong>git config --global user.email 'your_email@gmail.com'</stron=
+g></p></li>
+<li><p><strong>git rm --cached index.html</strong> =E2=86=92 removes files =
+from Index </p></li>
+<li><p><strong>git add *.html</strong> =E2=86=92 Add all html files. <stron=
+g>git add . </strong>=E2=86=92 Add all files and folders except those in .g=
+itignore</p></li>
+<li><p><strong>git commit -m 'your comment' </strong>=E2=86=92 Commit with =
+comments you added.</p></li>
+<li><p><strong>git branch login</strong> =E2=86=92 Create login branch. You=
+ have to <strong>commit </strong>to apply changes.</p></li>
+<li><p><strong>git checkout login</strong> =E2=86=92 Change branch to login=
+. All command will apply to this branch.</p></li>
+<li><p><strong>git merge login</strong> =E2=86=92 It should be executed fro=
+m <strong>master branch</strong>. Merge<strong> login branch</strong> to <s=
+trong>master</strong>.</p></li>
+<li><p><strong>git remote </strong>=E2=86=92 List remote repositories. </p>=
+</li>
+<li><p></p></li>
+</ol>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Create and use <strong>.gitignore</strong> file</p>
+<p>log.txt =E2=86=92 ignore this tile only</p>
+<p>/dir2 =E2=86=92 ignore all dir2 folder</p>
+<p>*.xlsx =E2=86=92 ignore all xlsx files</p>
+</div>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p> <a href=3D"https://www.youtube.com/watch?v=3DSWYqp7iY_Tc" data-card-app=
+earance=3D"inline" class=3D"external-link" rel=3D"nofollow">https://www.you=
+tube.com/watch?v=3DSWYqp7iY_Tc</a> </p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Highlight important information in a panel like this one. To edit this p=
+anel's color or style, select one of the options in the menu.</p>
+</div>
+</div>
+<h2 id=3D"Git/GitHubCrashCourse-Relatedarticles"><img class=3D"emoticon emo=
+ticon-blue-star" data-emoji-id=3D"1f4cb" data-emoji-shortname=3D":clipboard=
+:" data-emoji-fallback=3D"\uD83D\uDCCB" src=3D"eccf3d4301d998cb37f542180536=
+2c8e" width=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(b=
+lue star)">&nbsp;Related articles</h2>
+<p></p>=20
+<ul class=3D"content-by-label">=20
+<li>=20
+<div> <span class=3D"icon aui-icon aui-icon-small aui-iconfont-page-default=
+" title=3D"Page">Page:</span>=20
+</div>=20
+<div class=3D"details"> <a data-linked-resource-id=3D"14385176" data-linked=
+-resource-type=3D"page" data-linked-resource-version=3D"6" href=3D"/wiki/sp=
+aces/~60252dbcc47e7300680a4528/pages/14385176">Git/GitHub Crash Course</a>=
+=20
+</div> </li>=20
+<li>=20
+<div> <span class=3D"icon aui-icon aui-icon-small aui-iconfont-page-default=
+" title=3D"Page">Page:</span>=20
+</div>=20
+<div class=3D"details"> <a data-linked-resource-id=3D"14319639" data-linked=
+-resource-type=3D"page" data-linked-resource-version=3D"2" href=3D"/wiki/sp=
+aces/~60252dbcc47e7300680a4528/pages/14319639/Install+Confluence+Local+From=
++tar+file">Install Confluence Local From tar file</a>=20
+</div> </li>=20
+<li>=20
+<div> <span class=3D"icon aui-icon aui-icon-small aui-iconfont-page-default=
+" title=3D"Page">Page:</span>=20
+</div>=20
+<div class=3D"details"> <a data-linked-resource-id=3D"13828122" data-linked=
+-resource-type=3D"page" data-linked-resource-version=3D"13" href=3D"/wiki/s=
+paces/~60252dbcc47e7300680a4528/pages/13828122/Confluence+Docker+Installati=
+on">Confluence Docker Installation</a>=20
+</div> </li>=20
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_4234_815978597.1670158709164
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/eccf3d4301d998cb37f5421805362c8e
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAPFBMVEVHcEzM1t3M1t3M1t3M1t3M
+1t2Zoqg9REgpLzPM1t3M1t3M1t3BaU/BaU/BaU/CcFjgtKf////M1dqZqrWLZiLOAAAADnRSTlMA
+IJ/v/zD///8QUN9Q360w504AAADiSURBVHgB7dhVgoUwEERRIIVrw/7XOoI7HRl9fRdwgKS+8J7y
+AwWowPcsCxX6VGjn+ApRnCRxBOVbQQGipC9CYAUpxAMUQ9k4KZCMAZ52WY6lBZrLM6aDVcunreNJ
+OVYth70uZ57Luun6t90BRVn11WBUDZXFiVNNcaG+o1SaQeUBqsyg6s9ADRGBERE1txDxIfprELPf
+BgnUdie1BlB3mjPoxz6Nn+zovtbw+o99I2T/abKjv78j2ZHsSHYkUOvqsLvT3EPmnyY7aohdcwMZ
+9Beg0swpD1BhBhWnP1m0KxfnHV+T0IbfZ3ihAAAAAElFTkSuQmCC
+------=_Part_4234_815978597.1670158709164
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/0a5634600387a69ade271a7faefb3faf
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAq1BMVEVHcEwiZpkiZpkiZpkiZpki
+ZpkiZpkiZpkiZpk7iMMiZpnM1t0iZpnM1t07iMMiZpnM1t3M1t3M1t0iZplfnMo7iMM7iMM7iMM7
+iMMiZplVrO7M1t3h6O1ikLOswdCiusxNoeFCkc7Bz9l3nrtamsujxN3Z4efM3OhQpeZPo+OxyNjg
+5+zP2N9Ln95loM5FltM+jcg3dKJfnMpFjsaCp8PQ2eAtbZ1ql7lTqusm12cWAAAAGHRSTlMAUN/P
+IL+vYO/PcCCfzyAQv+9gMIDvYL/uJGE9AAABJklEQVR4Xu3QV27DMBBF0ZFVSDtxeiHV3FtqL/tf
+WSjyYyIBATT05CfgXcDBwwMsGWUDTUtmArqJVHs1iFrMOTLkDgETUmsOSWjXR7WYmIq+TSonReCK
+tGsxL6jVz/Yn5xxL59SFR3MrCQuNnFMVXtUNlFkodtBNSet2fWel5idpIY0QkXq3j2vTT+izpEt2
+UxfSb/RN6w6Eqd49rJpJe0DYclOWLJB63TBBavk7lPdrOnPSyhfC7t3je0IoMUD5jAuackH530MB
+ClCAAhSgAAUoQAFKuSDBBMXAA8mEB4oT4IEA/it0wgWdMUFj4IFODxBK/aCdcV7G6AAIP+jRQBfQ
+KvaBtsYZQrtE0qGvJ6Uuj6ArxVRoa5whOphIKdDO/HN91Ra+ARIL3guc4aKtAAAAAElFTkSuQmCC
+
+------=_Part_4234_815978597.1670158709164--
