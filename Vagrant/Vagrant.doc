@@ -1,0 +1,443 @@
+Date: Mon, 5 Dec 2022 07:42:27 +0000 (UTC)
+Message-ID: <1222584578.1.1670226147998@90f8b2df1cf2>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_0_1576750105.1670226147970"
+
+------=_Part_0_1576750105.1670226147970
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Vagrant</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Vagrant</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"Vagrant-Instructions"><img class=3D"emoticon emoticon-blu=
+e-star" data-emoji-id=3D"1f4d8" data-emoji-shortname=3D":blue_book:" data-e=
+moji-fallback=3D"\uD83D\uDCD8" src=3D"0a5634600387a69ade271a7faefb3faf" wid=
+th=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(blue star)=
+">&nbsp;Instructions</h2>
+<p></p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>First download <strong>VirtualBox </strong>and <strong>Vagrant </strong>=
+and install them. In folder that you execute command will download image. V=
+agrant file is written in Ruby but you do not have to know Ruby.</p>
+</div>
+</div>
+<ol start=3D"1">
+<li><p><strong>vagrant -v </strong>=E2=86=92 Display version of Vagrant.</p=
+></li>
+<li><p><strong>vagrant init ubuntu/trusty64</strong> =E2=86=92 Create vagra=
+nt file.</p></li>
+<li><p><strong>vagrant up</strong> =E2=86=92 Download template and create v=
+irtual machine.</p></li>
+<li><p><strong>vagrant destroy</strong> =E2=86=92 Destroy virtual machine.<=
+/p></li>
+<li><p><strong>vagrant suspend</strong> =E2=86=92 Suspend virtual machine.<=
+/p></li>
+<li><p><strong>vagrant resume</strong> =E2=86=92 Resume virtual machine.</p=
+></li>
+<li><p><strong>vagrant reload</strong> =E2=86=92 Reload virtual machine.</p=
+></li>
+<li><p></p></li>
+</ol>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Vagrant basic file example</p>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># -*- m=
+ode: ruby -*-
+# vi: set ft=3Druby :
+
+
+Vagrant.configure("2") do |config|
+ =20
+  config.vm.box =3D "ubuntu/trusty64"
+
+  # Define HostName
+  config.vm.define "StormInSide"
+  config.vm.hostname =3D "StormInSide"
+
+  config.vm.network "private_network", ip: "192.168.33.10"
+
+
+
+  config.vm.synced_folder ".", "/vagrant_data"
+
+
+  config.vm.provider "virtualbox" do |vb|
+    # Customize the amount of memory on the VM:
+    vb.memory =3D "1024"
+    vb.cpus =3D 4
+  end
+
+
+  config.vm.provision "shell", inline: &lt;&lt;-SHELL
+    apt-get update
+    apt-get install -y apache2
+  SHELL
+end</pre>=20
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Vagrant file with Apache, imported folder from host to VM and folder per=
+mission. Require also bootstrap.sh file presented below.</p>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># -*- m=
+ode: ruby -*-
+# vi: set ft=3Druby :
+
+Vagrant.configure("2") do |config|
+ =20
+    # Box Settings
+    config.vm.box =3D "ubuntu/trusty64"
+ =20
+    # Provider Settings
+    config.vm.provider "virtualbox" do |vb|
+      # vb.memory =3D 2048
+      # vb.cpus =3D 4
+    end
+ =20
+    # Network Settings
+    # config.vm.network "forwarded_port", guest: 80, host: 8080
+    # config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "=
+127.0.0.1"
+    config.vm.network "private_network", ip: "192.168.33.10"
+ =20
+    # Folder Settings
+    config.vm.synced_folder ".", "/var/www/html", :nfs =3D&gt; { :mount_opt=
+ions =3D&gt; ["dmode=3D777", "fmode=3D666"] }
+   =20
+    config.vm.provision "shell", path: "bootstrap.sh"
+  end</pre>=20
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>bootstrap.sh file for provision part on separate file</p>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Updat=
+e Packages
+apt-get update
+# Upgrade Packages
+apt-get upgrade
+
+# Basic Linux Stuff
+apt-get install -y git
+
+# Apache
+apt-get install -y apache2
+
+# Enable Apache Mods
+a2enmod rewrite
+
+#Add Onrej PPA Repo
+apt-add-repository ppa:ondrej/php
+apt-get update
+
+# Install PHP
+apt-get install -y php7.2
+
+# PHP Apache Mod
+apt-get install -y libapache2-mod-php7.2
+
+# Restart Apache
+service apache2 restart
+
+# PHP Mods
+apt-get install -y php7.2-common
+apt-get install -y php7.2-mcrypt
+apt-get install -y php7.2-zip
+
+# Set MySQL Pass
+debconf-set-selections &lt;&lt;&lt; 'mysql-server mysql-server/root_passwor=
+d password root'
+debconf-set-selections &lt;&lt;&lt; 'mysql-server mysql-server/root_passwor=
+d_again password root'
+
+# Install MySQL
+apt-get install -y mysql-server
+
+# PHP-MYSQL lib
+apt-get install -y php7.2-mysql
+
+# Restart Apache
+sudo service apache2 restart</pre>=20
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><a href=3D"https://www.youtube.com/watch?v=3DvBreXjkizgo" data-card-appe=
+arance=3D"inline" class=3D"external-link" rel=3D"nofollow">https://www.yout=
+ube.com/watch?v=3DvBreXjkizgo</a> </p>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_0_1576750105.1670226147970
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/0a5634600387a69ade271a7faefb3faf
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAq1BMVEVHcEwiZpkiZpkiZpkiZpki
+ZpkiZpkiZpkiZpk7iMMiZpnM1t0iZpnM1t07iMMiZpnM1t3M1t3M1t0iZplfnMo7iMM7iMM7iMM7
+iMMiZplVrO7M1t3h6O1ikLOswdCiusxNoeFCkc7Bz9l3nrtamsujxN3Z4efM3OhQpeZPo+OxyNjg
+5+zP2N9Ln95loM5FltM+jcg3dKJfnMpFjsaCp8PQ2eAtbZ1ql7lTqusm12cWAAAAGHRSTlMAUN/P
+IL+vYO/PcCCfzyAQv+9gMIDvYL/uJGE9AAABJklEQVR4Xu3QV27DMBBF0ZFVSDtxeiHV3FtqL/tf
+WSjyYyIBATT05CfgXcDBwwMsGWUDTUtmArqJVHs1iFrMOTLkDgETUmsOSWjXR7WYmIq+TSonReCK
+tGsxL6jVz/Yn5xxL59SFR3MrCQuNnFMVXtUNlFkodtBNSet2fWel5idpIY0QkXq3j2vTT+izpEt2
+UxfSb/RN6w6Eqd49rJpJe0DYclOWLJB63TBBavk7lPdrOnPSyhfC7t3je0IoMUD5jAuackH530MB
+ClCAAhSgAAUoQAFKuSDBBMXAA8mEB4oT4IEA/it0wgWdMUFj4IFODxBK/aCdcV7G6AAIP+jRQBfQ
+KvaBtsYZQrtE0qGvJ6Uuj6ArxVRoa5whOphIKdDO/HN91Ra+ARIL3guc4aKtAAAAAElFTkSuQmCC
+
+------=_Part_0_1576750105.1670226147970--
